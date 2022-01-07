@@ -1,27 +1,16 @@
 {
-  "name": "my-project",
-  "version": "0.0.0",
+  "name": "bellta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./server/index.js",
   "engines": {
     "node": "16.13.1"
   },
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "cd server && npm install && cd ../client && npm install && npm run build",
+    "start": "cd server && node index.js"
   },
-  "dependencies": {
-    "@fontsource/poppins": "^4.5.0",
-    "@react-hook/resize-observer": "^1.2.5",
-    "framer-motion": "^5.5.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-icons": "^4.3.1",
-    "react-intersection-observer": "^8.33.1",
-    "react-router-dom": "^6.1.1",
-    "styled-components": "^5.3.3"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^1.0.7",
-    "vite": "^2.7.2"
-  }
+  "keywords": [],
+  "author": ".Y.",
+  "license": "ISC"
 }
