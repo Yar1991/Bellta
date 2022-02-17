@@ -1,7 +1,6 @@
 # Project "Bellta"
 
-A fake sports nutrition company website.
-You can check it [here](https://bellta.herokuapp.com/)
+A fake sports nutrition company [website](https://bellta.herokuapp.com/). Work in progress. 
 
 ## Technologies:
 
