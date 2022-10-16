@@ -7,7 +7,7 @@
     "node": "16.13.1"
   },
   "scripts": {
-    "build": "cd server && npm install && cd ../client && npm install && npm run build",
+    "build": "cd server && npm install && cd ../client && npm install && npm run build && cd ..",
     "start": "cd server && node index.js"
   },
   "keywords": [],
